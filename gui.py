@@ -243,6 +243,9 @@ al.pack()
 al.bind("<Button-1>", lambda e: callback("https://github.com/BSGreatuser/Hackin-cultureland-with-selenium"))
 
 # al2 LABEL
+'''
+- 하단 수정금지 -
+'''
 al2 = Label(win)
 al2.config(text='https://봉순.com', font=afont, foreground='blue', background='#C0FFFF')
 al2.pack()
