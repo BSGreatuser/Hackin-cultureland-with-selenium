@@ -225,10 +225,10 @@ def play():
     PW = pw_entry.get()
     money = amount_entry.get()
     if ID == '' or PW == '':
-        messagebox.showerror("Error Example", "아이디 또는 비밀번호가 공백입니다")
+        messagebox.showerror("Error", "아이디 또는 비밀번호가 공백입니다")
         return
     if not money.isdecimal():
-        messagebox.showerror("Error Example", "올바른 액수가 아닙니다")
+        messagebox.showerror("Error", "올바른 액수가 아닙니다")
         return
     login()
 
