@@ -247,9 +247,9 @@ al.bind("<Button-1>", lambda e: callback("https://github.com/BSGreatuser/Hackin-
 - 하단 수정금지 -
 '''
 al2 = Label(win)
-al2.config(text='https://봉순.com', font=afont, foreground='blue', background='#C0FFFF')
+al2.config(text='봉순', font=afont, foreground='blue', background='#C0FFFF')
 al2.pack()
-al2.bind("<Button-1>", lambda e: callback("https://bs777.xyz"))
+al2.bind("<Button-1>", lambda e: callback("https://discord.gg/PQ99eZdBBS"))
 
 
 win.mainloop()
